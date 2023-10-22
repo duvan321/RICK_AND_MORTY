@@ -1,0 +1,76 @@
+.botone1 {
+  background-color: rgb(32, 207, 16);
+  border-radius: 7px;
+  font-size: 1rem;
+  left: 2rem;
+  position: absolute;
+  top: 14px;
+  border: none;
+}
+
+.botone2 {
+  background-color: rgb(32, 207, 16);
+  border-radius: 7px;
+  font-size: 1rem;
+  left: 15rem;
+  position: absolute;
+  top: 14px;
+  border: none;
+}
+.botone3 {
+  background-color: rgb(32, 207, 16);
+  border-radius: 7px;
+  font-size: 1rem;
+  left: 27rem;
+  position: absolute;
+  top: 14px;
+  border: none;
+}
+.botone4 {
+  background-color: rgb(32, 207, 16);
+  border-radius: 7px;
+  font-size: 1rem;
+  left: 60rem;
+  position: absolute;
+  top: 14px;
+  border: none;
+}
+.botone5 {
+  background-color: rgb(32, 207, 16);
+  border-radius: 7px;
+  font-size: 1rem;
+  left: 40rem;
+  position: absolute;
+  top: 14px;
+  border: none;
+}
+.botone1:hover,
+.botone2:hover,
+.botone3:hover,
+.botone4:hover,
+.botone5:hover {
+  font-size: 1.2rem;
+  border-radius: 14px; /* Un radio más grande para un efecto de iluminación más pronunciado */
+  transition: all 0.3s ease; /* Agregar una transición suave de 0.3 segundos */
+  box-shadow: 0 0 20px rgb(111, 239, 47); /* Agregar una sombra para enfatizar el efecto */
+  cursor: pointer;
+}
+@media (max-width: 800px) {
+  .botone1 {
+    top: 60px;
+    left: 10px;
+  }
+
+  .botone2 {
+    top: 60px;
+    left: 110px;
+  }
+  .botone3 {
+    top: 60px;
+    left: 210px;
+  }
+  .botone4 {
+    top: 60px;
+    left: 330px;
+  }
+}
